@@ -1,1 +1,14 @@
+# Ensure all text files use LF in the repo
 * text=auto
+
+# Unity-specific text files
+*.cs text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.meta text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.compute text eol=lf
+*.json text eol=lf
+*.asmdef text eol=lf
+*.asset text eol=lf
